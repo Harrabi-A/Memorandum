@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/mainLayout">
+
+    <TextView
+        android:id="@+id/txtMemTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Titolo"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMemStatus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/txtMemTitle2"
+        android:text="Stato"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtDesc2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMemStatus2"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="122dp"
+        android:layout_toStartOf="@+id/imgbtnDelete2"
+        android:layout_toEndOf="@+id/txtMemTitle2"
+        android:text="Descrizione"
+        android:textSize="11dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtLocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMemTitle2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="14dp"
+        android:text="Luogo"
+        android:textSize="10dp"/>
+
+    <ImageButton
+        android:id="@+id/imgbtnDelete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/ic_baseline_delete_24"></ImageButton>
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Memorandum</string>
+    <string name="tab_text_1">Promemoria</string>
+    <string name="tab_text_2">Promemoria Attivi</string>
+    <string name="tab_text_3">Mappa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
